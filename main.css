@@ -1,66 +1,81 @@
 header {
-    background: #999;
-    color: white;
-    margin: 0;
-}
-
-body {
-    margin: 0;
-}
-
-header {
-    text-align: center;
-    height: 700px;
-    position: relative;
-    background-image: url("HMG-Website/band-banner.jpg");
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: 100%;
-}
-
-header h1 {
-    font-family: simplifica;
-    font-size: 150px;
-    padding: 20%;
-}
-
-.banner {
-    background-size: 100%;
-    padding: 100px;
-}
-
-nav ul {
-    margin: 0;
-    display: inline;
-    padding: 0 0 0 15px;
-}
-
-nav ul li {
-    font-family: simplifica;
-    display: inline-block;
-    list-style-type: none;
-    color: white;
-    font-size: 40px;
-    padding: 5px 15px;
-}
-
-nav ul li a {
-    color: white;
-}
-
-.row {}
-
-.col {
-    padding: 50px;
-}
-
-footer {
-    clear: both;
-}
-
-@font-face {
-    font-family: 'Simplifica';
-    font-style: normal;
-    font-weight: normal;
-    src: local('Simplifica'), url('SIMPLIFICA Typeface.woff') format('woff');
-}
+                        background: #999;
+                        color: white;
+                        margin: 0;
+                    }
+                    
+                    body {
+                        margin: 0;
+                    }
+                    
+                    header {
+                        text-align: center;
+                        height: 40%;
+                        position: relative;
+                        background-image: url("band-banner.jpg");
+                        background-repeat: no-repeat;
+                        background-size: cover;
+                        background-position: center;
+                    }
+                    
+                    header h1 {
+                        font-family: simplifica;
+                        font-size: 10vw;
+                        padding: 10%;
+                        text-decoration: underline;
+                    }
+                    
+                    header h3 {
+                        font-family: simplifica;
+                        font-size: 2vw;
+                        color: #f8f8ff;
+                    }
+                    
+                    nav ul {
+                        margin: 0;
+                        display: inline;
+                        padding: 0 0 0 3%;
+                    }
+                    
+                    nav ul li {
+                        font-family: simplifica;
+                        display: inline-block;
+                        list-style-type: none;
+                        color: white;
+                        font-size: 2vw;
+                        padding: 5px 15px;
+                    }
+                    
+                    nav ul li a {
+                        color: white;
+                        text-decoration: none;
+                        text-transform: uppercase;
+                    }
+                    
+                    footer {
+                        clear: both;
+                    }
+                    
+                    @font-face {
+                        font-family: 'Simplifica';
+                        font-style: normal;
+                        font-weight: normal;
+                        src: local('Simplifica'), url('SIMPLIFICA Typeface.woff') format('woff');
+                    }
+                    
+                    span:before {
+                        content: '"You brought a lovely piece of Ireland to London" Jo Wood (Celebrity Island).';
+                        animation: animate infinite 16s;
+                    }
+                    
+                    @keyframes animate {
+                        0% {
+                            content: '"You brought a lovely piece of Ireland to London" Jo Wood (Celebrity Island).';
+                        }
+                        60% {
+                            content: '"A great Irish band that will rock any party" Robert Smith (the Cure).';
+                        }
+                        100% {
+                            content: '"Thanks for a wonderful day" Jake Wood (Eastenders).';
+                        }
+                    }
