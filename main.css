@@ -1,3 +1,66 @@
-body{
-  background:red
+header {
+    background: #999;
+    color: white;
+    margin: 0;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    text-align: center;
+    height: 700px;
+    position: relative;
+    background-image: url("band-banner.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100%;
+}
+
+header h1 {
+    font-family: simplifica;
+    font-size: 150px;
+    padding: 20%;
+}
+
+.banner {
+    background-size: 100%;
+    padding: 100px;
+}
+
+nav ul {
+    margin: 0;
+    display: inline;
+    padding: 0 0 0 15px;
+}
+
+nav ul li {
+    font-family: simplifica;
+    display: inline-block;
+    list-style-type: none;
+    color: white;
+    font-size: 40px;
+    padding: 5px 15px;
+}
+
+nav ul li a {
+    color: white;
+}
+
+.row {}
+
+.col {
+    padding: 50px;
+}
+
+footer {
+    clear: both;
+}
+
+@font-face {
+    font-family: 'Simplifica';
+    font-style: normal;
+    font-weight: normal;
+    src: local('Simplifica'), url('SIMPLIFICA Typeface.woff') format('woff');
 }
